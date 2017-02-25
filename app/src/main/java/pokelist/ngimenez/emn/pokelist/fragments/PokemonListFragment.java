@@ -15,13 +15,9 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Objects;
 
-import pokelist.ngimenez.emn.pokelist.PokeAPIService;
-import pokelist.ngimenez.emn.pokelist.PokemonAPIPokemonGetter;
+import pokelist.ngimenez.emn.pokelist.services.PokeAPIService;
+import pokelist.ngimenez.emn.pokelist.utils.PokemonAPIPokemonGetter;
 import pokelist.ngimenez.emn.pokelist.R;
 import pokelist.ngimenez.emn.pokelist.models.Pokemon;
 import retrofit2.Call;
@@ -182,7 +178,7 @@ public class PokemonListFragment extends Fragment {
             public void bind(final Pokemon pokemon) {
                 this.pokemon = pokemon;
                 nameView.setText(this.pokemon.getName());
-                Glide.with(view.getContext())
+                Glide.with(view.getContext().getApplicationContext())
                         .load(this.pokemon.getSprite())
                         .fitCenter()
                         .crossFade()

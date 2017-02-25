@@ -1,8 +1,9 @@
-package pokelist.ngimenez.emn.pokelist;
+package pokelist.ngimenez.emn.pokelist.gson.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import pokelist.ngimenez.emn.pokelist.gson.utils.PokemonDeserializer;
 import pokelist.ngimenez.emn.pokelist.models.Pokemon;
 import retrofit2.converter.gson.GsonConverterFactory;
 

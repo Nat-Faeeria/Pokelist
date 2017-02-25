@@ -1,4 +1,4 @@
-package pokelist.ngimenez.emn.pokelist;
+package pokelist.ngimenez.emn.pokelist.gson.utils;
 
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;

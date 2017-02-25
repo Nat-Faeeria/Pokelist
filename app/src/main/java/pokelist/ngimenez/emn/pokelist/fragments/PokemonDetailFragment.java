@@ -46,7 +46,7 @@ public class PokemonDetailFragment extends Fragment {
 
         String tempStuff = "";
 
-        Glide.with(view.getContext())
+        Glide.with(view.getContext().getApplicationContext())
                 .load(pokemon.getSprite())
                 .fitCenter()
                 .crossFade()

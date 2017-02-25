@@ -1,4 +1,4 @@
-package pokelist.ngimenez.emn.pokelist;
+package pokelist.ngimenez.emn.pokelist.services;
 
 import java.util.List;
 

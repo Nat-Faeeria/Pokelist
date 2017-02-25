@@ -1,7 +1,9 @@
-package pokelist.ngimenez.emn.pokelist;
+package pokelist.ngimenez.emn.pokelist.utils;
 
 import java.util.List;
 
+import pokelist.ngimenez.emn.pokelist.services.PokeAPIService;
+import pokelist.ngimenez.emn.pokelist.gson.utils.PokemonGsonConverterBuilder;
 import pokelist.ngimenez.emn.pokelist.fragments.PokemonListFragment;
 import pokelist.ngimenez.emn.pokelist.models.PokeAPICallResult;
 import pokelist.ngimenez.emn.pokelist.models.Pokemon;
